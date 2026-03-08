@@ -54,9 +54,16 @@ alert("Entre em contato pelo WhatsApp para agendar seu horário.");
 }
 
 function whatsapp(){
-window.open("https://wa.me/65993422052");
+window.open("https://wa.me/5565993422052");
+```javascript
+function whatsapp(){
+window.open("https://wa.me/5565993422052");
+}
+```
+
 }
 ```
 
 
 }
+
