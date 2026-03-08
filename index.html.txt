@@ -161,4 +161,136 @@
 
     <script src="script.js"></script>
 </body>
+
+</html>```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOv Line - Salão de Beleza</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<h1>NOv Line</h1>
+
+<nav>
+<a href="#inicio">Início</a>
+<a href="#servicos">Serviços</a>
+<a href="#precos">Preços</a>
+<a href="#contato">Contato</a>
+</nav>
+</header>
+
+
+<section class="hero" id="inicio">
+
+<h2>Elegância e Beleza em Cada Detalhe</h2>
+<p>Experimente um atendimento premium no salão NOv Line.</p>
+
+<button onclick="agendar()">Agendar Horário</button>
+
+</section>
+
+
+<section class="servicos" id="servicos">
+
+<h2>Nossos Serviços</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Corte Feminino</h3>
+<p>Cortes modernos e personalizados.</p>
+</div>
+
+<div class="card">
+<h3>Escova Alisadora</h3>
+<p>Escova profissional com efeito liso e brilho intenso.</p>
+</div>
+
+<div class="card">
+<h3>Luzes</h3>
+<p>Técnicas modernas para iluminar seu cabelo.</p>
+</div>
+
+<div class="card">
+<h3>Hidratação Capilar</h3>
+<p>Tratamento profundo para cabelos saudáveis.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="precos" id="precos">
+
+<h2>Tabela de Preços</h2>
+
+<div class="price-table">
+
+<div class="price-item">
+<span>Corte Feminino</span>
+<strong>R$60</strong>
+</div>
+
+<div class="price-item">
+<span>Corte Masculino</span>
+<strong>R$40</strong>
+</div>
+
+<div class="price-item">
+<span>Escova Alisadora</span>
+<strong>R$80</strong>
+</div>
+
+<div class="price-item">
+<span>Luzes</span>
+<strong>R$150</strong>
+</div>
+
+<div class="price-item">
+<span>Hidratação Capilar</span>
+<strong>R$70</strong>
+</div>
+
+<div class="price-item">
+<span>Coloração Completa</span>
+<strong>R$120</strong>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="contato" id="contato">
+
+<h2>Agende seu horário</h2>
+
+<p>Entre em contato pelo WhatsApp e marque seu atendimento.</p>
+
+<button onclick="whatsapp()">Falar no WhatsApp</button>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 NOv Line - Salão de Beleza</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
 </html>
+```
