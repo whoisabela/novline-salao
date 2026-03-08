@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVline - Salão de Beleza</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>NOV<span>line</span></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Sua beleza é nossa arte</h2>
+            <p>Descubra a experiência única do NOVline</p>
+            <a href="#contato" class="btn">Agende seu horário</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre Nós</h2>
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <p>No NOVline, combinamos técnicas inovadoras com produtos de alta qualidade para realçar sua beleza natural. Nossa equipe de profissionais altamente qualificados está preparada para oferecer a melhor experiência em cuidados pessoais.</p>
+                    <p>Com mais de 10 anos de experiência no mercado, nos tornamos referência em beleza e bem-estar na região.</p>
+                </div>
+                <div class="sobre-stats">
+                    <div class="stat">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-label">Anos de experiência</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">5000+</span>
+                        <span class="stat-label">Clientes atendidos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <i class="fas fa-cut"></i>
+                    <h3>Cortes</h3>
+                    <p>Cortes modernos e personalizados para todos os estilos</p>
+                    <span class="preco">A partir de R$ 50</span>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Coloração</h3>
+                    <p>Técnicas avançadas com produtos de alta qualidade</p>
+                    <span class="preco">A partir de R$ 120</span>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-hand-sparkles"></i>
+                    <h3>Manicure</h3>
+                    <p>Cuidados completos para suas mãos e unhas</p>
+                    <span class="preco">A partir de R$ 35</span>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Tratamentos</h3>
+                    <p>Tratamentos capilares revitalizantes</p>
+                    <span class="preco">A partir de R$ 80</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2 class="section-title">Galeria</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="/api/placeholder/300/300" alt="Trabalho 1">
+                </div>
+                <div class="galeria-item">
+                    <img src="/api/placeholder/300/300" alt="Trabalho 2">
+                </div>
+                <div class="galeria-item">
+                    <img src="/api/placeholder/300/300" alt="Trabalho 3">
+                </div>
+                <div class="galeria-item">
+                    <img src="/api/placeholder/300/300" alt="Trabalho 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Rua da Beleza, 123 - Centro</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(11) 99999-9999</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contato@novline.com.br</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Seg - Sáb: 9h às 20h</p>
+                    </div>
+                </div>
+                <form class="contato-form">
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <input type="tel" placeholder="Seu telefone">
+                    <textarea placeholder="Sua mensagem" rows="4" required></textarea>
+                    <button type="submit" class="btn">Enviar mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 NOVline - Todos os direitos reservados</p>
+            <div class="social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
