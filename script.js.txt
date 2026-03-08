@@ -48,5 +48,15 @@ if (contatoForm) {
         
         alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
         contatoForm.reset();
-    });
+    });```javascript
+function agendar(){
+alert("Entre em contato pelo WhatsApp para agendar seu horário.");
+}
+
+function whatsapp(){
+window.open("https://wa.me/65993422052");
+}
+```
+
+
 }
